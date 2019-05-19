@@ -1,0 +1,66 @@
+html {
+    height: 100%;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5%;
+    background-color: #ffffff;
+}
+
+main {
+    background-color: rgb(184, 193, 233);
+    font-family: 'Lora', serif;
+    color: white;
+}
+
+header {
+    text-align: center;
+    background-image: url(balloons.jpg);
+    background-size: 100%;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 40px;
+    color: red;
+}
+
+.overlay {
+    background-color: rgba(254, 254, 254, .7)
+}
+
+nav {
+    color: black;
+}
+
+nav h2 {
+    text-align: center;
+    color: red;
+}
+
+article {
+    color: black;
+
+}
+
+footer {
+    color: black;
+
+}
+
+header img {
+    max-width: 50%;
+    border-radius: 100%;
+}
+
+.gallery {
+    max-width: 30%;
+    border-radius: 5%;
+}
+
+.flip {
+    transform: rotate(180deg);
+}
+
+.rotate {
+    transform: rotate(-90deg);
+}
